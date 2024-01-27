@@ -1,0 +1,118 @@
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+body {
+    background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	color: #000305;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+	
+.body {
+	clear: both; 
+	margin: 0 auto; 
+	width: 70%;
+}
+
+#text {
+     font:bold 40px Century Gothic;
+	 
+}
+#text1 {
+     font:bold 14px Century Gothic;
+	 
+}
+   
+  
+a:link, a:visited {font:bold Century Gothic;text-decoration:none;color:#ff5454;}
+a:hover {font:bold Century Gothic;text-decoration:none;color:#0000ff;}
+a img {border:none;}
+strong {font-weight:bold;} 
+
+
+
+#contact {
+    background-image: url('../images/image.jpg');
+	color: #008080;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	vertical-align:top;
+	}
+	
+#contact1 {
+    color: #008080;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+	vertical-align:top;
+}
+
+#product {
+
+margin-left:400px;
+margin-top:150px;
+position:absolute;
+}
+
+#title {
+
+margin-left:400px;
+margin-top:0;
+position:absolute;
+}
+
+ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+ul#nav li {
+background:#fff;
+float:left;
+}
+
+ul#nav li a {
+display:block;
+padding:5px 10px;
+color:#000;
+text-decoration:none;
+border-bottom:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+
+ul#nav li a:hover {
+background:#aaa;
+}
+
+ul#nav li ul li {
+float:none;
+}
+
+ul#nav li ul {
+position:absolute;
+display:none;
+}
+
+ul#nav li:hover ul{
+display:block;
+}
+
+#cen {
+margin-left:200px;
+}
+
+.clear {
+clear:both;
+}
